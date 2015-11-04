@@ -31,7 +31,6 @@ $ git push
 $ cd ~/dotfiles
 $ vim .existing
 $ ./install.sh
-$ cd dotfiles
 $ git add .existing
 $ git commit -m 'Update .existing'
 $ git push
