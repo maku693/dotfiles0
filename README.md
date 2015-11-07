@@ -10,7 +10,7 @@ cf.) https://help.github.com/articles/generating-ssh-keys/
 ## Installation
 ```
 $ cd ~
-$ git clone git://gituhub.com/maku693/dotfiles
+$ git clone git@github.com:maku693/dotfiles
 $ cd dotfiles
 $ ./install.sh
 ```
@@ -30,7 +30,6 @@ $ git push
 ```
 $ cd ~/dotfiles
 $ vim .existing
-$ ./install.sh
 $ git add .existing
 $ git commit -m 'Update .existing'
 $ git push
