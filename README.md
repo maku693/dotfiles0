@@ -12,7 +12,7 @@ cf.) https://help.github.com/articles/generating-ssh-keys/
 $ cd ~
 $ git clone git@github.com:maku693/dotfiles
 $ cd dotfiles
-$ ./install.sh
+$ ./link.sh
 ```
 
 ## Add a new dotfile
@@ -20,7 +20,7 @@ $ ./install.sh
 $ cd ~
 $ mv .newdotfile ~/dotfiles
 $ cd ~/dotfiles
-$ ./install.sh
+$ ./link.sh
 $ git add .newdotfile
 $ git commit -m 'Add .newdotfile'
 $ git push
