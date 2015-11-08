@@ -24,3 +24,22 @@ autoload -U colors; colors
 # prompt
 autoload -U promptinit && promptinit
 prompt pure
+
+# nvm
+if [[ -s ~/.nvm/nvm.sh ]]; then source ~/.nvm/nvm.sh ; fi
+
+# rbenv
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+# direnv
+if which direnv > /dev/null; then eval "$(direnv hook zsh)"; fi
+
+# tmux
+if ! [ -z $PS1 ] && [ -z $TMUX ]; then
+  if $(tmux has-session 2>/dev/null); then
+    tmux attach
+  else
+    tmux
+  fi
+fi
+
