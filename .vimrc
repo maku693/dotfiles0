@@ -1,7 +1,6 @@
 " General
 set nocompatible
 set history=500
-filetype plugin indent on
 
 " Editing
 set backspace=indent,eol,start
@@ -9,7 +8,7 @@ set ambiwidth=double
 set expandtab
 set tabstop=2
 set shiftwidth=2
-set whichwrap+=b,s,h,l,[,],<,>
+set autoindent
 
 " UI
 set showcmd
@@ -17,6 +16,8 @@ set number
 set ruler
 set foldcolumn=1
 set wildmenu
+set hidden
+set whichwrap+=b,s,h,l,[,],<,>
 
 " Search
 set hlsearch
@@ -47,10 +48,12 @@ NeoBundle 'tyru/caw.vim'
 NeoBundle 'editorconfig/editorconfig-vim'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/vimfiler.vim'
-" NeoBundle 'Shougo/vimshell'
 
 call neobundle#end()
 NeoBundleCheck
+
+" autoindent
+filetype plugin indent on
 
 " Color Scheme
 set background=dark
@@ -68,29 +71,4 @@ nnoremap <CR> :<C-u>noh<CR><CR>
 " caw.vim
 nmap <Leader>c <Plug>(caw:i:toggle)
 vmap <Leader>c <Plug>(caw:i:toggle)
-
-" autocmd
-if has("autocmd")
-  " Put these in an autocmd group, so that we can delete them easily.
-  augroup vimrcEx
-  au!
-
-  " For all text files set 'textwidth' to 78 characters.
-  autocmd FileType text setlocal textwidth=78
-
-  " When editing a file, always jump to the last known cursor position.
-  " Don't do it when the position is invalid or when inside an event handler
-  " (happens when dropping a file on gvim).
-  autocmd BufReadPost *
-    \ if line("'\"") >= 1 && line("'\"") <= line("$") |
-    \   exe "normal! g`\"" |
-    \ endif
-
-  augroup END
-
-else
-
-  set autoindent		" always set autoindenting on
-
-endif " has("autocmd")
 
