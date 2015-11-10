@@ -15,6 +15,9 @@ setopt hist_ignore_dups
 setopt share_history
 setopt hist_reduce_blanks
 
+# suppress PATH duplicate 
+typeset -U path
+
 # autocomplete
 autoload -Uz compinit; compinit
 
