@@ -35,8 +35,8 @@ if has('mouse')
 endif
 
 " NeoBundle
-set runtimepath+=/Users/shota/.vim/bundle/neobundle.vim/
-call neobundle#begin(expand('/Users/shota/.vim/bundle'))
+set runtimepath+=~/.vim/bundle/neobundle.vim/
+call neobundle#begin(expand('~/.vim/bundle'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 " Bundles
