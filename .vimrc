@@ -41,7 +41,6 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 
 " Bundles
 NeoBundle 'w0ng/vim-hybrid'
-NeoBundle 'slim-template/vim-slim'
 NeoBundle 'othree/html5.vim'
 NeoBundle 'elzr/vim-json'
 NeoBundle 'tyru/caw.vim'
