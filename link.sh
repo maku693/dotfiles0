@@ -5,7 +5,7 @@ for f in .*
 do
   case $f in
     '.' | '..' | '.git') ;;
-    *) ln -si $PWD/$f ~/$f && echo "Linked $f";;
+    *) ln -si $PWD/$f ~/$f && echo "linked $f";;
   esac
 done
 
