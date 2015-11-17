@@ -43,7 +43,7 @@ if which direnv > /dev/null; then eval "$(direnv hook zsh)"; fi
 
 # tmux
 if ! [ -z $PS1 ] && [ -z $TMUX ]; then
-  if $(tmux has-session 2>/dev/null); then
+  if tmux has-session; then
     tmux attach
   else
     tmux
