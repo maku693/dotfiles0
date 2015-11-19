@@ -40,22 +40,18 @@ if has('mouse')
   set mouse=a
 endif
 
-" NeoBundle
-set runtimepath+=~/.vim/bundle/neobundle.vim/
-call neobundle#begin(expand('~/.vim/bundle'))
-NeoBundleFetch 'Shougo/neobundle.vim'
+" vim-plug
+call plug#begin('~/.vim/plugged')
 
 " Bundles
-NeoBundle 'w0ng/vim-hybrid'
-NeoBundle 'othree/html5.vim'
-NeoBundle 'elzr/vim-json'
-NeoBundle 'tyru/caw.vim'
-NeoBundle 'editorconfig/editorconfig-vim'
-NeoBundle 'Shougo/unite.vim'
-NeoBundle 'Shougo/vimfiler.vim'
+Plug 'w0ng/vim-hybrid'
+Plug 'tyru/caw.vim'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'othree/html5.vim'
+Plug 'elzr/vim-json'
+Plug 'tikhomirov/vim-glsl'
 
-call neobundle#end()
-NeoBundleCheck
+call plug#end()
 
 " autoindent
 filetype plugin indent on
