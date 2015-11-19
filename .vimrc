@@ -29,6 +29,12 @@ set smartcase
 set nowb
 set noswapfile
 
+" Remember last position
+au BufReadPost * 
+  \ if line("'\"") > 1 && line("'\"") <= line("$") |
+    \ exe "normal! g'\"" |
+  \ endif
+
 " Enable mouse
 if has('mouse')
   set mouse=a
