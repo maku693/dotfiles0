@@ -59,6 +59,7 @@ call plug#end()
 filetype plugin indent on
 
 " Color Scheme
+let g:hybrid_use_Xresources = 1
 set background=dark
 colorscheme hybrid
 syntax on
