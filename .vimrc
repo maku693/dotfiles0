@@ -48,6 +48,8 @@ Plug 'w0ng/vim-hybrid'
 Plug 'tyru/caw.vim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'othree/html5.vim'
+Plug 'hail2u/vim-css3-syntax'
+Plug 'pangloss/vim-javascript'
 Plug 'elzr/vim-json'
 Plug 'tikhomirov/vim-glsl'
 
