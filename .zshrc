@@ -9,8 +9,8 @@ setopt pushd_ignore_dups
 
 # history
 HISTFILE=~/.zsh_history
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=3000
+SAVEHIST=3000
 setopt hist_ignore_dups
 setopt share_history
 setopt hist_reduce_blanks
