@@ -1,6 +1,5 @@
 # keybind
-bindkey -v
-bindkey '^?' backward-delete-char
+bindkey -e
 
 # directory moving
 setopt auto_cd
