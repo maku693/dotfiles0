@@ -41,12 +41,3 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # direnv
 if which direnv > /dev/null; then eval "$(direnv hook zsh)"; fi
 
-# tmux
-if ! [ -z $PS1 ] && [ -z $TMUX ]; then
-  if tmux has-session; then
-    tmux attach
-  else
-    tmux
-  fi
-fi
-
