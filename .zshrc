@@ -32,8 +32,6 @@ prompt pure
 alias reload="exec zsh -l"
 alias ls="ls -G"
 
-if which thefuck > /dev/null; then eval $(thefuck --alias); fi
-
 # nvm
 if [[ -s ~/.nvm/nvm.sh ]]; then source ~/.nvm/nvm.sh ; fi
 
