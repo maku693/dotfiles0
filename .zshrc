@@ -19,6 +19,7 @@ setopt hist_reduce_blanks
 typeset -U path
 
 # autocomplete
+fpath=(/usr/local/share/zsh-completions $fpath)
 autoload -Uz compinit; compinit
 
 # color
