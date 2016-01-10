@@ -1,11 +1,6 @@
 #! /bin/sh
-cd `dirname $0`
-
-for f in .*
-do
-  case $f in
-    '.' | '..' | '.git') ;;
-    *) ln -si $PWD/$f ~/$f && echo "linked $f";;
-  esac
+cd `dirname "${0}"`
+files=`find . -type f | sed -e "s/.\///" | grep -v "^\.git" | grep "^\."`
+for f in ${files}; do
+	ln -si "${PWD}/${f}" "${HOME}/${f}" && echo "${PWD}/${f}" "${HOME}/${f}"
 done
-
