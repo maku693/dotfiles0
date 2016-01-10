@@ -18,4 +18,4 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 export TERM=screen-256color
 
 # Other Global Variables
-export EDITOR=vim
+export EDITOR=nvim
