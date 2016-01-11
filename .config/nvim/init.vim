@@ -42,8 +42,11 @@ Plug 'pangloss/vim-javascript'
 Plug 'elzr/vim-json'
 call plug#end()
 
+" Netrw
+let g:netrw_banner=0
+
 " Color scheme
-let g:hybrid_use_Xresources = 1
+let g:hybrid_custom_term_colors = 1
 set background=dark
 colorscheme hybrid
 
