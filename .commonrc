@@ -18,7 +18,6 @@ export TERM=screen-256color
 export EDITOR=nvim
 
 # aliases
-alias reload="exec zsh -l"
 alias ls="ls -G"
 
 # nvm

@@ -28,7 +28,10 @@ autoload -U colors; colors
 autoload -U promptinit && promptinit
 prompt pure
 
+# Common settings
 source ~/.commonrc
+
+alias reload="exec zsh -l"
 
 # direnv
 if which direnv > /dev/null; then eval "$(direnv hook zsh)"; fi
