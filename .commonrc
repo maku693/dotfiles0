@@ -2,7 +2,7 @@
 alias ls="ls -G"
 
 # nvm
-if [[ -s ~/.nvm/nvm.sh ]]; then source ~/.nvm/nvm.sh ; fi
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
 # rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
