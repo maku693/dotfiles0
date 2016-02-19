@@ -8,6 +8,9 @@ export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_NDK:$PATH
 export ARDUINO_DIR="/Applications/Arduino.app/Contents/Java"
 export ARDMK_DIR="/usr/local/opt/arduino-mk"
 
+# nvm
+export NVM_DIR="$HOME/.nvm"
+
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 
