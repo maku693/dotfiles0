@@ -41,6 +41,8 @@ Plug 'pangloss/vim-javascript'
 Plug 'elzr/vim-json'
 call plug#end()
 
+" Colorscheme
+colorscheme husl
 " Netrw
 let g:netrw_banner=0
 let g:netrw_winsize=24
