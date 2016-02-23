@@ -32,7 +32,6 @@ set omnifunc=syntaxcomplete#Complete
 
 " Plugins
 call plug#begin('~/.config/nvim/plugged')
-Plug 'w0ng/vim-hybrid'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tyru/caw.vim'
 Plug 'editorconfig/editorconfig-vim'
@@ -44,11 +43,6 @@ call plug#end()
 
 " Netrw
 let g:netrw_banner=0
-
-" Color scheme
-let g:hybrid_custom_term_colors = 1
-set background=dark
-colorscheme hybrid
 
 " Keymaps
 " Don't use Ex mode, use Q for formatting
