@@ -13,7 +13,7 @@ hi Cursorline    ctermbg=7   ctermfg=NONE  cterm=NONE
 hi MatchParen    ctermfg=0   ctermbg=11    cterm=NONE
 hi Pmenu         ctermfg=15  ctermbg=7
 hi PmenuThumb    ctermbg=8
-hi PmenuSBar     ctermbg=15
+hi PmenuSBar     ctermbg=7
 hi PmenuSel      ctermfg=15  ctermbg=4
 hi ColorColumn   ctermbg=7
 hi SpellBad      ctermfg=1   ctermbg=NONE  cterm=underline
