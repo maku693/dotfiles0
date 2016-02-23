@@ -5,7 +5,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name="husl"
+let colors_name="usual"
 
 " Vim UI
 hi Cursor        ctermfg=15  ctermbg=4

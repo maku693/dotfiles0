@@ -39,10 +39,13 @@ Plug 'othree/html5.vim'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'pangloss/vim-javascript'
 Plug 'elzr/vim-json'
+Plug 'octol/vim-cpp-enhanced-highlight'
 call plug#end()
 
 " Colorscheme
-colorscheme husl
+colorscheme usual
+let g:cpp_class_scope_highlight=1
+
 " Netrw
 let g:netrw_banner=0
 let g:netrw_winsize=24
