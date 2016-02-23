@@ -43,6 +43,9 @@ call plug#end()
 
 " Netrw
 let g:netrw_banner=0
+let g:netrw_winsize=24
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | Lexplore | endif
 
 " Keymaps
 " Don't use Ex mode, use Q for formatting
