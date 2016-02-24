@@ -48,7 +48,7 @@ let g:cpp_class_scope_highlight=1
 
 " Netrw
 let g:netrw_banner=0
-let g:netrw_winsize=24
+let g:netrw_winsize=25
 let g:netrw_liststyle=3
 let g:netrw_altv=1
 let g:netrw_chgwin=1
