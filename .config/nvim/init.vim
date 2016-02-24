@@ -39,10 +39,21 @@ Plug 'othree/html5.vim'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'pangloss/vim-javascript'
 Plug 'elzr/vim-json'
+Plug 'octol/vim-cpp-enhanced-highlight'
 call plug#end()
+
+" Colorscheme
+colorscheme usual
+let g:cpp_class_scope_highlight=1
 
 " Netrw
 let g:netrw_banner=0
+let g:netrw_winsize=24
+let g:netrw_liststyle=3
+let g:netrw_altv=1
+let g:netrw_chgwin=1
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | Vexplore! | endif
 
 " Keymaps
 " Don't use Ex mode, use Q for formatting
