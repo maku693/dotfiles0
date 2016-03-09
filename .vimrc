@@ -1,16 +1,30 @@
+" General
+set autoread
+set nocompatible
+set ttyfast
+
 " Editing
-set ambiwidth=double
+set autoindent
+set backspace=indent,eol,start
+set encoding=utf-8
 set expandtab
-set tabstop=2
 set shiftwidth=2
+set smarttab
+set tabstop=2
 
 " UI
-set showcmd
-set number
-set ruler
+set ambiwidth=double
 set foldcolumn=1
 set hidden
+set langnoremap
+set laststatus=2
+set mouse=a
+set nowrap
+set number
+set ruler
+set showcmd
 set whichwrap+=b,s,h,l,[,],<,>
+set wildmenu
 
 " Status line
 set laststatus=2
@@ -31,7 +45,7 @@ set noswapfile
 set omnifunc=syntaxcomplete#Complete
 
 " Plugins
-call plug#begin('~/.config/nvim/plugged')
+call plug#begin('~/.vim/plugged')
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tyru/caw.vim'
 Plug 'editorconfig/editorconfig-vim'
@@ -45,21 +59,14 @@ call plug#end()
 " Colorscheme
 colorscheme usual
 let g:cpp_class_scope_highlight=1
+syntax on
 
 " Netrw
 let g:netrw_banner=0
-let g:netrw_winsize=25
-let g:netrw_liststyle=3
-let g:netrw_altv=1
-let g:netrw_chgwin=1
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | Vexplore! | endif
 
 " Keymaps
 " Don't use Ex mode, use Q for formatting
 map Q gq 
-" Exit by Esc in terminal mode
-tnoremap <Esc> <C-\><C-n>
 " Window
 nnoremap <M-s> :<C-u>sp<CR>
 nnoremap <M-v> :<C-u>vs<CR>
