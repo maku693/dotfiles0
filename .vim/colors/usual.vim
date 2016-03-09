@@ -10,7 +10,7 @@ let colors_name="usual"
 " Vim UI
 hi Cursor        ctermfg=15    ctermbg=4
 hi Cursorline    ctermbg=7     ctermfg=NONE  cterm=NONE
-hi MatchParen    ctermfg=15    ctermbg=11    cterm=NONE
+hi MatchParen    ctermfg=NONE  ctermbg=NONE  cterm=underline
 hi Pmenu         ctermfg=15    ctermbg=8
 hi PmenuThumb    ctermbg=7
 hi PmenuSBar     ctermbg=8
@@ -24,9 +24,9 @@ hi NonText       ctermfg=7
 hi LineNr        ctermfg=8     ctermbg=NONE
 hi CursorLineNr  ctermfg=11    ctermbg=NONE
 hi ModeMsg       ctermfg=3     ctermbg=NONE  cterm=bold
-hi Visual        ctermfg=0     ctermbg=7
-hi IncSearch     ctermfg=0     ctermbg=11    cterm=NONE
-hi Search        ctermfg=0     ctermbg=11
+hi Visual        ctermfg=NONE  ctermbg=7
+hi IncSearch     ctermfg=15    ctermbg=11    cterm=NONE
+hi Search        ctermfg=15    ctermbg=11
 hi StatusLine    ctermfg=15    ctermbg=12    cterm=bold
 hi StatusLineNC  ctermfg=15    ctermbg=8     cterm=bold
 hi VertSplit     ctermfg=0     ctermbg=NONE  cterm=NONE
@@ -42,7 +42,7 @@ hi DiffAdd       ctermfg=2     ctermbg=10
 hi DiffChange    ctermfg=3     ctermbg=11
 hi DiffDelete    ctermfg=1     ctermbg=9
 hi DiffText      ctermfg=0     ctermbg=11    cterm=bold
-hi WildMenu      ctermfg=15    ctermbg=12    cterm=bold
+hi WildMenu      ctermfg=15    ctermbg=8     cterm=bold
 
 hi! link CursorColumn  CursorLine
 hi! link SignColumn    LineNr
@@ -59,13 +59,13 @@ hi Number      ctermfg=4
 hi Boolean     ctermfg=5
 hi Float       ctermfg=4
 hi Identifier  ctermfg=4
-hi Statement   ctermfg=4
+hi Statement   ctermfg=5
 hi PreProc     ctermfg=3
 hi Type        ctermfg=5
 hi Special     ctermfg=3
 hi Delimiter   ctermfg=0
 hi Underlined  ctermfg=4   cterm=underline
 hi Ignore      ctermfg=7
-hi Error       ctermfg=15  ctermbg=1
+hi Error       ctermfg=15  ctermbg=9
 hi Todo        ctermfg=3   ctermbg=NONE
 
