@@ -16,13 +16,13 @@ hi PmenuThumb    ctermbg=7
 hi PmenuSBar     ctermbg=8
 hi PmenuSel      ctermfg=15    ctermbg=12
 hi ColorColumn   ctermbg=7
-hi SpellBad      ctermfg=1     ctermbg=NONE  cterm=underline
+hi SpellBad      ctermfg=9     ctermbg=NONE  cterm=underline
 hi SpellCap      ctermfg=10    ctermbg=NONE  cterm=underline
 hi SpellRare     ctermfg=11    ctermbg=NONE  cterm=underline
 hi SpellLocal    ctermfg=13    ctermbg=NONE  cterm=underline
 hi NonText       ctermfg=7
 hi LineNr        ctermfg=8     ctermbg=NONE
-hi CursorLineNr  ctermfg=11    ctermbg=NONE
+hi CursorLineNr  ctermfg=12    ctermbg=NONE
 hi ModeMsg       ctermfg=3     ctermbg=NONE  cterm=bold
 hi Visual        ctermfg=NONE  ctermbg=7
 hi IncSearch     ctermfg=15    ctermbg=11    cterm=NONE
@@ -35,13 +35,13 @@ hi TabLineSel    ctermfg=15    ctermbg=8
 hi TabLineFill   ctermfg=0     ctermbg=NONE  cterm=NONE
 hi Folded        ctermfg=8     ctermbg=NONE
 hi Directory     ctermfg=6
-hi Title         ctermfg=5     cterm=bold
-hi ErrorMsg      ctermfg=15    ctermbg=1
-hi WarningMsg    ctermfg=15    ctermbg=3
-hi DiffAdd       ctermfg=2     ctermbg=10
-hi DiffChange    ctermfg=3     ctermbg=11
-hi DiffDelete    ctermfg=1     ctermbg=9
-hi DiffText      ctermfg=0     ctermbg=11    cterm=bold
+hi Title         ctermfg=0     cterm=bold
+hi ErrorMsg      ctermfg=15    ctermbg=9
+hi WarningMsg    ctermfg=15    ctermbg=11
+hi DiffAdd       ctermfg=15    ctermbg=10
+hi DiffChange    ctermfg=15    ctermbg=11
+hi DiffDelete    ctermfg=15    ctermbg=9
+hi DiffText      ctermfg=NONE  ctermbg=NONE  cterm=bold
 hi WildMenu      ctermfg=15    ctermbg=8     cterm=bold
 
 hi! link CursorColumn  CursorLine
