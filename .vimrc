@@ -50,11 +50,11 @@ call plug#begin('~/.vim/plugged')
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tyru/caw.vim'
 Plug 'editorconfig/editorconfig-vim'
-Plug 'othree/html5.vim'
-Plug 'hail2u/vim-css3-syntax'
-Plug 'pangloss/vim-javascript'
-Plug 'elzr/vim-json'
-Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'othree/html5.vim', { 'for': 'html' }
+Plug 'hail2u/vim-css3-syntax', { 'for': ['html', 'css'] }
+Plug 'othree/yajs.vim', { 'for': ['html', 'javascript'] }
+Plug 'elzr/vim-json', { 'for': 'json' }
+Plug 'octol/vim-cpp-enhanced-highlight', { 'for': 'cpp' }
 call plug#end()
 
 " Colorscheme
