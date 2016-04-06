@@ -14,6 +14,7 @@ set tabstop=2
 
 " UI
 set ambiwidth=double
+set colorcolumn=80
 set foldcolumn=1
 set hidden
 set langnoremap
