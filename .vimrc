@@ -15,7 +15,7 @@ set tabstop=2
 " UI
 set ambiwidth=double
 set colorcolumn=80
-set clipboard=unnamed,autoselect
+set clipboard=unnamed
 set foldcolumn=1
 set hidden
 set langnoremap
