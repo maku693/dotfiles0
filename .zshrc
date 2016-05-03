@@ -25,8 +25,9 @@ autoload -Uz compinit; compinit
 autoload -U colors; colors
 
 # prompt
-autoload -U promptinit && promptinit
-prompt pure
+PROMPT="
+%{$fg[blue]%}%3~
+%(?.%{$fg[green]%}.%{$fg[red]%})%B❯%b "
 
 # Common settings
 source ~/.commonrc
