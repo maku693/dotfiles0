@@ -83,6 +83,6 @@ nnoremap <M-t> :<C-u>tabnew<CR>
 " Clear highlights
 nnoremap <CR> :<C-u>noh<CR><CR>
 " caw.vim
-nmap <Leader>c <Plug>(caw:i:toggle)
-vmap <Leader>c <Plug>(caw:i:toggle)
+nmap <Leader>c <Plug>(caw:hatpos:toggle)
+vmap <Leader>c <Plug>(caw:hatpos:toggle)
 
