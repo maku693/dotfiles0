@@ -28,6 +28,12 @@ autoload -U colors; colors
 PROMPT="
 %{$fg[blue]%}%3~
 %(?.%{$fg[green]%}.%{$fg[red]%})%B❯%b "
+# Terminal title
+autoload -Uz add-zsh-hook
+function update_terminal_title() {
+  printf '\e]7;%s\a' "file://$HOSTNAME$PWD"
+}
+add-zsh-hook precmd update_terminal_title
 
 # Common settings
 source ~/.commonrc
