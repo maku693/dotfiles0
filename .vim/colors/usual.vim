@@ -29,13 +29,13 @@ hi IncSearch     ctermfg=15    ctermbg=11    cterm=NONE
 hi Search        ctermfg=15    ctermbg=11
 hi StatusLine    ctermfg=15    ctermbg=12    cterm=bold
 hi StatusLineNC  ctermfg=15    ctermbg=8     cterm=bold
-hi VertSplit     ctermfg=0     ctermbg=NONE  cterm=NONE
+hi VertSplit     ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi TabLine       ctermfg=15    ctermbg=7     cterm=NONE
 hi TabLineSel    ctermfg=15    ctermbg=8
-hi TabLineFill   ctermfg=0     ctermbg=NONE  cterm=NONE
+hi TabLineFill   ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi Folded        ctermfg=8     ctermbg=NONE
 hi Directory     ctermfg=6
-hi Title         ctermfg=0     cterm=bold
+hi Title         ctermfg=NONE
 hi ErrorMsg      ctermfg=15    ctermbg=9
 hi WarningMsg    ctermfg=15    ctermbg=11
 hi DiffAdd       ctermfg=15    ctermbg=10
@@ -63,9 +63,9 @@ hi Statement   ctermfg=5
 hi PreProc     ctermfg=3
 hi Type        ctermfg=5
 hi Special     ctermfg=3
-hi Delimiter   ctermfg=0
-hi Underlined  ctermfg=4   cterm=underline
+hi Delimiter   ctermfg=NONE
+hi Underlined  ctermfg=4     cterm=underline
 hi Ignore      ctermfg=7
-hi Error       ctermfg=15  ctermbg=9
-hi Todo        ctermfg=3   ctermbg=NONE
+hi Error       ctermfg=15    ctermbg=9
+hi Todo        ctermfg=3     ctermbg=NONE
 
