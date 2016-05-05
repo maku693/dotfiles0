@@ -28,6 +28,7 @@ autoload -U colors; colors
 PROMPT="
 %{$fg[blue]%}%3~
 %(?.%{$fg[green]%}.%{$fg[red]%})%B❯%b "
+
 # Terminal title
 autoload -Uz add-zsh-hook
 function update_terminal_title() {
@@ -35,10 +36,12 @@ function update_terminal_title() {
 }
 add-zsh-hook precmd update_terminal_title
 
+
 # Common settings
 source ~/.commonrc
 
 alias reload="exec zsh -l"
+
 
 # direnv
 if which direnv > /dev/null; then eval "$(direnv hook zsh)"; fi
