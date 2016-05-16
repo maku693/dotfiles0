@@ -53,7 +53,6 @@ set omnifunc=syntaxcomplete#Complete
 
 " Plugins
 call plug#begin('~/.vim/plugged')
-Plug 'terryma/vim-multiple-cursors'
 Plug 'tyru/caw.vim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'othree/html5.vim', { 'for': 'html' }
