@@ -74,17 +74,6 @@ let g:netrw_banner=0
 " Keymaps
 " Don't use Ex mode, use Q for formatting
 map Q gq 
-" Window
-nnoremap <M-s> :<C-u>sp<CR>
-nnoremap <M-v> :<C-u>vs<CR>
-nnoremap <M-h> <C-w>h
-nnoremap <M-j> <C-w>j
-nnoremap <M-k> <C-w>k
-nnoremap <M-l> <C-w>l
-nnoremap <M-H> <C-w><
-nnoremap <M-L> <C-w>>
-" Tab
-nnoremap <M-t> :<C-u>tabnew<CR>
 " Clear highlights
 nnoremap <CR> :<C-u>noh<CR><CR>
 " caw.vim
