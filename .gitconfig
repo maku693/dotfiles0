@@ -11,9 +11,6 @@
 	clean = git hawser clean %f
 	smudge = git hawser smudge %f
 	required = true
-[merge "mergepbx"]
-	name = Xcode project files merger
-	driver = mergepbx %O %A %B
 [push]
 	default = current
 [filter "lfs"]
