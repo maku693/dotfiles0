@@ -5,4 +5,4 @@ alias ls="ls -G"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
 # rbenv
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+[ -n "$(command -v rbenv)" ] && eval "$(rbenv init -)"
