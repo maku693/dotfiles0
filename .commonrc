@@ -1,9 +1,6 @@
 # aliases
 alias ls="ls -G"
 
-# nix
-[ -s "$NIX_DIR/etc/profile.d/nix.sh" ] && . "$NIX_DIR/etc/profile.d/nix.sh"
-
 # nvm
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
