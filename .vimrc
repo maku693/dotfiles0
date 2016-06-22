@@ -70,9 +70,6 @@ syntax on
 " Netrw
 let g:netrw_banner=0
 
-" Smooth scroll
-let g:scroll_factor=6000
-
 " Keymaps
 " Don't use Ex mode, use Q for formatting
 map Q gq 
