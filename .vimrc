@@ -25,7 +25,6 @@ set hidden
 set langnoremap
 set laststatus=2
 set mouse=a
-set nowrap
 set number
 set ruler
 set showcmd
@@ -73,3 +72,9 @@ let g:netrw_banner=0
 map Q gq 
 " Clear highlights
 nnoremap <CR> :<C-u>noh<CR><CR>
+" Move around wraped lines
+noremap <buffer> <silent> j gj
+noremap <buffer> <silent> k gk
+noremap <buffer> <silent> 0 g0
+noremap <buffer> <silent> ^ g^
+noremap <buffer> <silent> $ g$
