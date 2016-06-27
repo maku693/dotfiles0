@@ -52,7 +52,6 @@ set omnifunc=syntaxcomplete#Complete
 
 " Plugins
 call plug#begin('~/.vim/plugged')
-Plug 'tyru/caw.vim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'othree/html5.vim', { 'for': 'html' }
 Plug 'hail2u/vim-css3-syntax', { 'for': ['html', 'css'] }
@@ -74,7 +73,3 @@ let g:netrw_banner=0
 map Q gq 
 " Clear highlights
 nnoremap <CR> :<C-u>noh<CR><CR>
-" caw.vim
-nmap <Leader>c <Plug>(caw:hatpos:toggle)
-vmap <Leader>c <Plug>(caw:hatpos:toggle)
-
