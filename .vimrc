@@ -12,10 +12,8 @@ set shiftwidth=2
 set smarttab
 set tabstop=2
 " Remember last position
-autocmd BufReadPost *
-      \ if line("'\"") >= 1 && line("'\"") <= line("$") |
-      \   exe "normal! g`\"" |
-      \ endif
+au BufWinLeave ?* mkview
+au BufWinEnter ?* silent loadview
 
 " UI
 set ambiwidth=double
