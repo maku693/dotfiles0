@@ -43,8 +43,6 @@ set smartcase
 " Backup
 set nowb
 set noswapfile
-" Save session before quit
-au VimLeave * silent mks! ~/.vim/session
 
 " Completion
 set omnifunc=syntaxcomplete#Complete
