@@ -1,7 +1,7 @@
 source ~/.commonrc
 
 # Prompt
-PS1='\n\[\e[35m\]\w\[\e[m\]\n\$ '
+PS1='\n\[\e[35m\]\w\[\e[m\]\n\$> '
 
 # History
 export HISTCONTROL=ignoredups:erasedups
