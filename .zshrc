@@ -27,7 +27,7 @@ autoload -U colors; colors
 # prompt
 PROMPT="
 %{$fg[blue]%}%3~
-%(?.%{$fg[green]%}.%{$fg[red]%})%B❯%b "
+%(?.%{$fg[green]%}.%{$fg[red]%})%B%%>%b "
 
 # Terminal title
 autoload -Uz add-zsh-hook
