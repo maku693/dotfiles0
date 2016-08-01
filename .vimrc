@@ -71,8 +71,8 @@ map Q gq
 " Clear highlights
 nnoremap <CR> :<C-u>noh<CR><CR>
 " Move around wraped lines
-noremap <buffer> <silent> j gj
-noremap <buffer> <silent> k gk
-noremap <buffer> <silent> 0 g0
-noremap <buffer> <silent> ^ g^
-noremap <buffer> <silent> $ g$
+noremap <silent> j gj
+noremap <silent> k gk
+noremap <silent> 0 g0
+noremap <silent> ^ g^
+noremap <silent> $ g$
