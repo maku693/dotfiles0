@@ -2,7 +2,7 @@
 alias ls="ls -G"
 
 # nvm
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+[ -s "${NVM_DIR}/nvm.sh" ] && . "${NVM_DIR}/nvm.sh"
 
 # rbenv
 [ -n "$(command -v rbenv)" ] && eval "$(rbenv init -)"
