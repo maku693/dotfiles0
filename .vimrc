@@ -51,6 +51,7 @@ set omnifunc=syntaxcomplete#Complete
 
 " Plugins
 call plug#begin('~/.vim/plugged')
+Plug 'maku693/vim-usual'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'othree/html5.vim', { 'for': 'html' }
 Plug 'hail2u/vim-css3-syntax', { 'for': ['html', 'css'] }
